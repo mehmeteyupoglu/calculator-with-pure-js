@@ -13,4 +13,5 @@ var multiplication = document.getElementById('multiplication')
 
 var division = document.getElementById('division') 
 
+var operationButtons = document.getElementsByClassName("operation")
 
