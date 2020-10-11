@@ -67,6 +67,19 @@ hr {
 .operation {
   width: 25px;
   margin-right: 2px;
+  background-color: rgb(255 0 0);
+  color: aliceblue;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px black;
+}
+
+.operation:active {
+  transform: scale(0.89);
+}
+
+.operation:focus {
+  outline: none;
 }
 
 label {
